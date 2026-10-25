@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rainbow Clash</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Lilita+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div id="hb"></div>
+<div id="loading"><div class="arch" style="top:6%"></div><div class="cloud" style="top:12%;--w:130px;animation-duration:30s;animation-delay:-8s"></div><div class="cloud" style="top:62%;--w:170px;animation-duration:42s;animation-delay:-25s"></div><div id="lg"></div><div class="conga" id="cg"></div><div id="ldm">Waking up the aliens…</div><div class="lwrap"><i class="runner">🌈</i><div class="load-track"><div class="load-fill"></div></div></div></div>
+<canvas id="cv"></canvas>
+<div id="hud"><div class="pill"><small>Level</small><b id="lv">1</b></div><div class="pill" id="seq"></div>
+<div class="pill"><small>Lives</small><span id="lives"></span><small>Score</small><b id="sc">0</b><button class="rb gr" id="ps" title="Pause">❚❚</button><button class="rb rd" id="qx" title="Quit">✕</button></div></div>
+<div id="bar"><div id="fill"></div></div><div id="slowhint" aria-live="polite"></div>
+<div id="mm"><canvas id="mmc" width="480" height="480" title="Click to zoom"></canvas><div id="mmh">Tap map or press M to close</div><div id="mmlegend"><div class="legend-key"><span class="legend-player">▲</span> You <span class="legend-enemy">●</span> Aliens <span class="legend-target">●</span> Colors (number = pick order)</div><div class="legend-order"><b>Collect in order</b><div id="mm-guide-colors"></div></div></div><div class="zr"><button class="rb bl" id="zo">−</button><button class="rb bl" id="zi">+</button></div></div>
+<button class="rb gr" id="jb">⤒</button><div id="joy">Drag left = move · right = look</div>
+<canvas id="pfx"></canvas><div id="fx" aria-live="polite"></div><div id="ov"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="game.js"></script></body></html>
